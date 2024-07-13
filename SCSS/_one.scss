@@ -1,0 +1,11 @@
+#one {
+  --c1: #f1faee;
+  --c2: #457b9d;
+
+  background: 
+  radial-gradient(circle at 0 0, transparent 19px, transparent 20px) 0 0 / 40px 40px,
+  radial-gradient(circle at 100% 100%, transparent 19px, transparent 20px) 40px 40px / 40px 40px,
+  radial-gradient(circle at 100% 0, var(--c1) 19px, transparent 20px) 40px 0 / 40px 40px,
+  radial-gradient(circle at 0 100%, var(--c1) 19px, transparent 20px) 0 40px / 40px 40px;
+  background-color: var(--c2);
+}
