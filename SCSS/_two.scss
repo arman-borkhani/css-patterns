@@ -1,0 +1,12 @@
+#two {
+  --s: 160px;
+  --c1: #d9ead3;
+  --c2: #c5a3b4;
+
+  background: 
+  radial-gradient( circle at 25% 75%, var(--c1) calc(var(--s) / 4), transparent 1%) 0 0 / var(--s) var(--s),
+  radial-gradient( circle at 75% 25%, var(--c1) calc(var(--s) / 4), transparent 1%) 0 0 / var(--s) var(--s),
+  radial-gradient( circle at 75% 75%, transparent calc(var(--s) / 4 - 4px), var(--c1) calc(var(--s) / 4 - 4px) calc(var(--s) / 4), transparent 1%) 0 0 / var(--s) var(--s),
+  radial-gradient( circle at 25% 25%, transparent calc(var(--s) / 4 - 4px), var(--c1) calc(var(--s) / 4 - 4px) calc(var(--s) / 4), transparent 1%) 0 0 / var(--s) var(--s);
+  background-color: var(--c2);
+}
