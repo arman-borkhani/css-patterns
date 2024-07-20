@@ -1,11 +1,11 @@
 #one {
-  --c1: #f1faee;
+  --s: 80px;
+  --c1: #a8dadc;
   --c2: #457b9d;
+  --c3: #f1faee;
 
-  background: 
-  radial-gradient(circle at 0 0, transparent 19px, transparent 20px) 0 0 / 40px 40px,
-  radial-gradient(circle at 100% 100%, transparent 19px, transparent 20px) 40px 40px / 40px 40px,
-  radial-gradient(circle at 100% 0, var(--c1) 19px, transparent 20px) 40px 0 / 40px 40px,
-  radial-gradient(circle at 0 100%, var(--c1) 19px, transparent 20px) 0 40px / 40px 40px;
+  background:
+  radial-gradient(circle at 100% 0, var(--c3) calc(var(--s) / 2), transparent 1%) 0 0 / var(--s) var(--s),
+  radial-gradient(circle at 0 100%, var(--c1) calc(var(--s) / 2), transparent 1%) 0 0 / var(--s) var(--s);
   background-color: var(--c2);
 }
