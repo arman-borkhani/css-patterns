@@ -1,0 +1,14 @@
+#four {
+  --c1: #2e236c;
+  --c2: #c8acd6;
+
+  background: 
+  radial-gradient( circle at 75% 75%, var(--c1) 14px, transparent 15px ),
+  radial-gradient( circle at 25% 75%, var(--c2) 14px, transparent 15px ),
+  radial-gradient( circle at 75% 25%, var(--c2) 14px, transparent 15px ),
+  radial-gradient( circle at 25% 25%, var(--c1) 14px, transparent 15px ),
+  conic-gradient( var(--c1) 25%, var(--c2) 25% 50%, var(--c1) 50% 75%, var(--c2) 75% );
+  background-position: 0 0;
+  background-size: 100px 100px;
+  background-color: var(--c2);
+}
