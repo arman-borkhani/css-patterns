@@ -1,12 +1,7 @@
 #two {
-  --s: 160px;
-  --c1: #d9ead3;
-  --c2: #c5a3b4;
+  --s: 40px;
+  --c1: #ffd1e3;
+  --c2: #a367b1;
 
-  background: 
-  radial-gradient( circle at 25% 75%, var(--c1) calc(var(--s) / 4), transparent 1%) 0 0 / var(--s) var(--s),
-  radial-gradient( circle at 75% 25%, var(--c1) calc(var(--s) / 4), transparent 1%) 0 0 / var(--s) var(--s),
-  radial-gradient( circle at 75% 75%, transparent calc(var(--s) / 4 - 4px), var(--c1) calc(var(--s) / 4 - 4px) calc(var(--s) / 4), transparent 1%) 0 0 / var(--s) var(--s),
-  radial-gradient( circle at 25% 25%, transparent calc(var(--s) / 4 - 4px), var(--c1) calc(var(--s) / 4 - 4px) calc(var(--s) / 4), transparent 1%) 0 0 / var(--s) var(--s);
-  background-color: var(--c2);
+  background: linear-gradient(45deg, var(--c1) 50%, var(--c2) 50%) 0 0 / var(--s) var(--s);
 }
