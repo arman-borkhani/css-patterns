@@ -1,11 +1,7 @@
 #one {
   --s: 80px;
-  --c1: #a8dadc;
-  --c2: #457b9d;
-  --c3: #f1faee;
+  --c1: #bacd92;
+  --c2: #75a47F;
 
-  background:
-  radial-gradient(circle at 100% 0, var(--c3) calc(var(--s) / 2), transparent 1%) 0 0 / var(--s) var(--s),
-  radial-gradient(circle at 0 100%, var(--c1) calc(var(--s) / 2), transparent 1%) 0 0 / var(--s) var(--s);
-  background-color: var(--c2);
+  background: linear-gradient(to right, var(--c1) 50%, var(--c2) 50%) 0 0 / var(--s) var(--s);
 }
