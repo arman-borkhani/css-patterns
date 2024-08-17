@@ -1,7 +1,16 @@
 #two {
-  --s: 40px;
-  --c1: #ffd1e3;
-  --c2: #a367b1;
+  --s: 100px;
+  --c1: #f7ba53;
+  --c2: #490a3d;
 
-  background: linear-gradient(45deg, var(--c1) 50%, var(--c2) 50%) 0 0 / var(--s) var(--s);
+  background: conic-gradient(
+    var(--c2) 12.5%, 
+    var(--c1) 12.5% 25%, 
+    var(--c2) 25% 37.5%, 
+    var(--c1) 37.5% 50%, 
+    var(--c2) 50% 62.5%, 
+    var(--c1) 62.5% 75%, 
+    var(--c2) 75% 87.5%, 
+    var(--c1) 87.5%);
+  background-size: var(--s) var(--s);
 }
