@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Lato-Regular.ttf");
+}
 
 *,
 *::before,
@@ -11,7 +16,7 @@
 }
 
 body {
-  font-family: 'VT323', monospace;
+  font-family: "Lato", sans-serif;
   line-height: 1.5;
 }
 
@@ -31,9 +36,12 @@ body {
   color: #fafafa;
   background-color: #323133;
   padding: 1.5rem 1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .header-title {
@@ -42,6 +50,4 @@ body {
 
 .header-link {
   color: #fafafa;
-  line-height: 1;
-  text-transform: uppercase;
 }
