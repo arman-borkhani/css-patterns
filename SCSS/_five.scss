@@ -1,0 +1,11 @@
+#five {
+  --c1: #d9480f;
+  --c2: #ffe7d5;
+
+  background: 
+  radial-gradient( circle at 44px 44px, var(--c1) 3px, transparent 4px ),
+  radial-gradient( circle at 20px 20px, var(--c1) 3px, transparent 4px );
+  background-position: 0 0;
+  background-size: 48px 48px;
+  background-color: var(--c2);
+}
