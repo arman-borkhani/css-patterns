@@ -1,0 +1,28 @@
+#six {
+	--c1: #96d6e0;
+	--c2: #e7562e;
+	--c3: #1473b5;
+	--c4: #fff;
+	--th: 100px;
+	--tw: 50px;
+	--lh: 5px;
+
+	--ps: 0 0 / var(--tw) var(--th);
+	--space: calc(var(--th)/6);
+
+	background: 
+		conic-gradient(from -45deg at 50% calc(var(--space) - var(--lh)), var(--c4) 0 90deg, transparent 0 100%) var(--ps),
+		conic-gradient(from -45deg at 50% var(--space), var(--c1) 0 90deg, transparent 0 100%) var(--ps),
+		conic-gradient(from -45deg at 50% calc((var(--space) * 1) + var(--space) - var(--lh)), var(--c4) 0 90deg, transparent 0 100%) var(--ps),
+		conic-gradient(from -45deg at 50% calc((var(--space) * 1) + var(--space)), var(--c3) 0 90deg, transparent 0 100%) var(--ps),
+		conic-gradient(from -45deg at 50% calc((var(--space) * 2) + var(--space) - var(--lh)), var(--c4) 0 90deg, transparent 0 100%) var(--ps),
+		conic-gradient(from -45deg at 50% calc((var(--space) * 2) + var(--space)), var(--c3) 0 90deg, transparent 0 100%) var(--ps),
+		conic-gradient(from -45deg at 50% calc((var(--space) * 3) + var(--space) - var(--lh)), var(--c4) 0 90deg, transparent 0 100%) var(--ps),
+		conic-gradient(from -45deg at 50% calc((var(--space) * 3) + var(--space)), var(--c2) 0 90deg, transparent 0 100%) var(--ps),
+		conic-gradient(from -45deg at 50% calc((var(--space) * 4) + var(--space) - var(--lh)), var(--c4) 0 90deg, transparent 0 100%) var(--ps),
+		conic-gradient(from -45deg at 50% calc((var(--space) * 4) + var(--space)), var(--c1) 0 90deg, transparent 0 100%) var(--ps),
+		conic-gradient(from -45deg at 50% calc((var(--space) * 5) + var(--space) - var(--lh)), var(--c4) 0 90deg, transparent 0 100%) var(--ps),
+		conic-gradient(from -45deg at 50% calc((var(--space) * 5) + var(--space)), var(--c2) 0 90deg, transparent 0 100%) var(--ps),
+		conic-gradient(from -45deg at 50% calc((var(--space) * 6) + var(--space) - var(--lh)), var(--c4) 0 90deg, transparent 0 100%) var(--ps),
+		conic-gradient(from -45deg at 50% calc((var(--space) * 6) + var(--space)), var(--c1) 0 90deg, transparent 0 100%) var(--ps);
+}
