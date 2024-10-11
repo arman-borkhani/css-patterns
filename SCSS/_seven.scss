@@ -1,0 +1,49 @@
+#seven {
+  --c1: #086a5f;
+  --c2: #fefae0;
+  --s: 10px;
+
+  --s-00: calc(var(--s) * 00);
+  --s-01: calc(var(--s) * 01);
+  --s-02: calc(var(--s) * 02);
+  --s-03: calc(var(--s) * 03);
+  --s-04: calc(var(--s) * 04);
+  --s-05: calc(var(--s) * 05);
+  --s-06: calc(var(--s) * 06);
+  --s-07: calc(var(--s) * 07);
+  --s-08: calc(var(--s) * 08);
+  --s-09: calc(var(--s) * 09);
+  --s-10: calc(var(--s) * 10);
+  --s-11: calc(var(--s) * 11);
+  --s-12: calc(var(--s) * 12);
+  --s-13: calc(var(--s) * 13);
+  --s-14: calc(var(--s) * 14);
+  
+  --layer-01: 
+    var(--s-03) var(--s-03) / var(--s-14) var(--s-14) conic-gradient(from 270deg at var(--s-01) var(--s-01), var(--c1) 90deg, #fff0 90deg),
+    var(--s-02) var(--s-02) / var(--s-14) var(--s-14) conic-gradient(from 270deg at var(--s-03) var(--s-03), var(--c2) 90deg, #fff0 90deg),
+    var(--s-01) var(--s-01) / var(--s-14) var(--s-14) conic-gradient(from 270deg at var(--s-05) var(--s-05), var(--c1) 90deg, #fff0 90deg),
+    var(--s-00) var(--s-00) / var(--s-14) var(--s-14) conic-gradient(from 270deg at var(--s-07) var(--s-07), var(--c2) 90deg, #fff0 90deg);
+  --layer-02: 
+    var(--s-03) var(--s-10) / var(--s-14) var(--s-14) conic-gradient(from 270deg at var(--s-01) var(--s-01), var(--c2) 90deg, #fff0 90deg),
+    var(--s-02) var(--s-09) / var(--s-14) var(--s-14) conic-gradient(from 270deg at var(--s-03) var(--s-03), var(--c1) 90deg, #fff0 90deg),
+    var(--s-01) var(--s-08) / var(--s-14) var(--s-14) conic-gradient(from 270deg at var(--s-05) var(--s-05), var(--c2) 90deg, #fff0 90deg),
+    var(--s-00) var(--s-07) / var(--s-14) var(--s-14) conic-gradient(from 270deg at var(--s-07) var(--s-07), var(--c1) 90deg, #fff0 90deg);
+  --layer-03: 
+    var(--s-10) var(--s-03) / var(--s-14) var(--s-14) conic-gradient(from 270deg at var(--s-01) var(--s-01), var(--c2) 90deg, #fff0 90deg),
+    var(--s-09) var(--s-02) / var(--s-14) var(--s-14) conic-gradient(from 270deg at var(--s-03) var(--s-03), var(--c1) 90deg, #fff0 90deg),
+    var(--s-08) var(--s-01) / var(--s-14) var(--s-14) conic-gradient(from 270deg at var(--s-05) var(--s-05), var(--c2) 90deg, #fff0 90deg),
+    var(--s-07) var(--s-00) / var(--s-14) var(--s-14) conic-gradient(from 270deg at var(--s-07) var(--s-07), var(--c1) 90deg, #fff0 90deg);
+  --layer-04: 
+    var(--s-10) var(--s-10) / var(--s-14) var(--s-14) conic-gradient(from 270deg at var(--s-01) var(--s-01), var(--c1) 90deg, #fff0 90deg),
+    var(--s-09) var(--s-09) / var(--s-14) var(--s-14) conic-gradient(from 270deg at var(--s-03) var(--s-03), var(--c2) 90deg, #fff0 90deg),
+    var(--s-08) var(--s-08) / var(--s-14) var(--s-14) conic-gradient(from 270deg at var(--s-05) var(--s-05), var(--c1) 90deg, #fff0 90deg),
+    var(--s-07) var(--s-07) / var(--s-14) var(--s-14) conic-gradient(from 270deg at var(--s-07) var(--s-07), var(--c2) 90deg, #fff0 90deg);
+
+  background:
+    var(--layer-04),
+    var(--layer-03),
+    var(--layer-02),
+    var(--layer-01);
+	min-height: 420px;
+}
