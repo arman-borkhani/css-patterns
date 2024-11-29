@@ -1,0 +1,17 @@
+#nine {
+  --c1: #172f5c;
+  --c2: #9edae7;
+  --c3: transparent;
+
+  --circle: var(--c3) 6px, var(--c2) 7px 8px, var(--c3) 9px 14px, var(--c2) 15px 16px, var(--c3) 17px 22px, var(--c2) 23px 24px, transparent 25px;
+
+  background: 
+  radial-gradient( circle at 96px 56px, var(--circle) ),
+  radial-gradient( circle at 96px 0, var(--circle) ),
+  radial-gradient( circle at 48px 28px, var(--circle) ),
+  radial-gradient( circle at 0 56px, var(--circle) ),
+  radial-gradient( circle at 0 0, var(--circle) );
+  background-size: 96px 56px;
+  background-color: var(--c1);
+  min-height: 392px;
+}
