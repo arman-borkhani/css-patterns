@@ -1,0 +1,57 @@
+#ten {
+  --c1: #ffedcb;
+  --c2: #ffc145;
+
+  --s: 100px; /* Size */
+
+  /* Computed Variables */
+  --px:  calc(var(--s)/8);
+  --2px: calc(var(--px)*2);
+  --3px: calc(var(--px)*3);
+  --4px: calc(var(--px)*4);
+  --5px: calc(var(--px)*5);
+  --6px: calc(var(--px)*6);
+  --7px: calc(var(--px)*7);
+
+  background: 
+  conic-gradient(from 0 at var(--7px) var(--px), var(--c2) 90deg, transparent 90deg) 0 var(--7px) / var(--s) var(--px),
+  conic-gradient(from 0 at 0 var(--px), var(--c1) 90deg, transparent 90deg) 0 var(--7px) / var(--s) var(--px),
+  /* Line 7 */
+  conic-gradient(from 0 at var(--5px) var(--px), var(--c1) 90deg, transparent 90deg) 0 var(--6px) / var(--s) var(--px),
+  conic-gradient(from 0 at var(--2px) var(--px), var(--c2) 90deg, transparent 90deg) 0 var(--6px) / var(--s) var(--px),
+  conic-gradient(from 0 at 0 var(--px), var(--c1) 90deg, transparent 90deg) 0 var(--6px) / var(--s) var(--px),
+  /* Line 6 */
+  conic-gradient(from 0 at var(--6px) var(--px), var(--c1) 90deg, transparent 90deg) 0 var(--5px) / var(--s) var(--px),
+  conic-gradient(from 0 at var(--4px) var(--px), var(--c2) 90deg, transparent 90deg) 0 var(--5px) / var(--s) var(--px),
+  conic-gradient(from 0 at var(--3px) var(--px), var(--c1) 90deg, transparent 90deg) 0 var(--5px) / var(--s) var(--px),
+  conic-gradient(from 0 at var(--px) var(--px), var(--c2) 90deg, transparent 90deg) 0 var(--5px) / var(--s) var(--px),
+  conic-gradient(from 0 at 0 var(--px), var(--c1) 90deg, transparent 90deg) 0 var(--5px) / var(--s) var(--px),
+  /* Line 5 */
+  conic-gradient(from 0 at var(--7px) var(--px), var(--c1) 90deg, transparent 90deg) 0 var(--4px) / var(--s) var(--px),
+  conic-gradient(from 0 at var(--5px) var(--px), var(--c2) 90deg, transparent 90deg) 0 var(--4px) / var(--s) var(--px),
+  conic-gradient(from 0 at var(--2px) var(--px), var(--c1) 90deg, transparent 90deg) 0 var(--4px) / var(--s) var(--px),
+  conic-gradient(from 0 at 0 var(--px), var(--c2) 90deg, transparent 90deg) 0 var(--4px) / var(--s) var(--px),
+  /* Line 4 */
+  conic-gradient(from 0 at var(--7px) var(--px), var(--c1) 90deg, transparent 90deg) 0 var(--3px) / var(--s) var(--px),
+  conic-gradient(from 0 at var(--6px) var(--px), var(--c2) 90deg, transparent 90deg) 0 var(--3px) / var(--s) var(--px),
+  conic-gradient(from 0 at var(--4px) var(--px), var(--c1) 90deg, transparent 90deg) 0 var(--3px) / var(--s) var(--px),
+  conic-gradient(from 0 at var(--3px) var(--px), var(--c2) 90deg, transparent 90deg) 0 var(--3px) / var(--s) var(--px),
+  conic-gradient(from 0 at var(--px) var(--px), var(--c1) 90deg, transparent 90deg) 0 var(--3px) / var(--s) var(--px),
+  conic-gradient(from 0 at 0 var(--px), var(--c2) 90deg, transparent 90deg) 0 var(--3px) / var(--s) var(--px),
+  /* Line 3 */
+  conic-gradient(from 0 at var(--7px) var(--px), var(--c1) 90deg, transparent 90deg) 0 var(--2px) / var(--s) var(--px),
+  conic-gradient(from 0 at var(--5px) var(--px), var(--c2) 90deg, transparent 90deg) 0 var(--2px) / var(--s) var(--px),
+  conic-gradient(from 0 at var(--2px) var(--px), var(--c1) 90deg, transparent 90deg) 0 var(--2px) / var(--s) var(--px),
+  conic-gradient(from 0 at 0 var(--px), var(--c2) 90deg, transparent 90deg) 0 var(--2px) / var(--s) var(--px),
+  /* Line 2 */
+  conic-gradient(from 0 at var(--6px) var(--px), var(--c1) 90deg, transparent 90deg) 0 var(--px) / var(--s) var(--px),
+  conic-gradient(from 0 at var(--4px) var(--px), var(--c2) 90deg, transparent 90deg) 0 var(--px) / var(--s) var(--px),
+  conic-gradient(from 0 at var(--3px) var(--px), var(--c1) 90deg, transparent 90deg) 0 var(--px) / var(--s) var(--px),
+  conic-gradient(from 0 at var(--px) var(--px), var(--c2) 90deg, transparent 90deg) 0 var(--px) / var(--s) var(--px),
+  conic-gradient(from 0 at 0 var(--px), var(--c1) 90deg, transparent 90deg) 0 var(--px) / var(--s) var(--px),
+  /* Line 1 */
+  conic-gradient(from 0 at var(--5px) var(--px), var(--c1) 90deg, transparent 90deg) 0 0 / var(--s) var(--px),
+  conic-gradient(from 0 at var(--2px) var(--px), var(--c2) 90deg, transparent 90deg) 0 0 / var(--s) var(--px),
+  conic-gradient(from 0 at 0 var(--px), var(--c1) 90deg, transparent 90deg) 0 0 / var(--s) var(--px);
+  background-size: var(--s) var(--s);
+}
