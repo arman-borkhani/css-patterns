@@ -1,0 +1,14 @@
+#eleven {
+  --c1: #9679c9;
+  --c2: #0a0f12;
+  --cricle: transparent 7px, var(--c1) 8px 11px, transparent 12px;
+
+  background: 
+  radial-gradient( circle at 0 0, var(--cricle) ),
+  radial-gradient( circle at 0 100%, var(--cricle) ),
+  radial-gradient( circle at 100% 50%, var(--cricle) ),
+  radial-gradient( circle, var(--c1) 2px, transparent 3px );
+  background-position: 0 0;
+  background-size: 40px 40px;
+  background-color: var(--c2);
+}
