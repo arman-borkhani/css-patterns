@@ -1,0 +1,19 @@
+#twelve {
+  --c1: #7A054D;
+	--c4: #BB085F;
+	--lh: 4px;
+
+  /* computed variables */
+	--ps: 0 0 / 50px 34px;
+	--space: calc(34px / 2);
+
+	background: 
+    linear-gradient(to right, var(--c1) 0 1px, transparent 1px 24px, var(--c1) 24px 26px, transparent 26px 49px, var(--c1) 49px 50px) var(--ps),
+		conic-gradient(from -45deg at 50% calc(var(--space) - 4px), var(--c4) 0 90deg, transparent 0 100%) var(--ps),
+		conic-gradient(from -45deg at 50% var(--space), var(--c1) 0 90deg, transparent 0 100%) var(--ps),
+		conic-gradient(from -45deg at 50% calc((var(--space) * 1) + var(--space) - 4px), var(--c4) 0 90deg, transparent 0 100%) var(--ps),
+		conic-gradient(from -45deg at 50% calc((var(--space) * 1) + var(--space)), var(--c1) 0 90deg, transparent 0 100%) var(--ps),
+		conic-gradient(from -45deg at 50% calc((var(--space) * 2) + var(--space) - 4px), var(--c4) 0 90deg, transparent 0 100%) var(--ps),
+		conic-gradient(from -45deg at 50% calc((var(--space) * 2) + var(--space)), var(--c1) 0 90deg, transparent 0 100%) var(--ps);
+    background-color: var(--c4);
+}
