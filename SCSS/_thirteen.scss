@@ -1,0 +1,14 @@
+#thirteen {
+  css-doodle {
+    --rule: (
+      @grid: 1 / 100% / #ffe9cf;
+      background-size: 104px 62px;
+      background-image: @doodle(
+        @grid: 6 / 102px 60px;
+        @gap: 2px;
+        background-color: #f97316;
+        @nth(2,3,12,13,16,21,24,28,31,35){ background-color: transparent }
+      );
+    );
+  }
+}
