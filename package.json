@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "browser-sync": "^2.29.3",
+    "css-doodle": "^0.48.0",
     "sass": "^1.69.5"
   }
 }
