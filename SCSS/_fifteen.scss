@@ -16,19 +16,19 @@
         @grid: 4 / @var(--size) @var(--size);
 
         @nth(1, 8, 14) {
-          background: conic-gradient(from -45deg, @var(--c1) 0 25%, @var(--c2) 0 50%, @var(--c3) 0 75%, @var(--c2) 0 100%);
+          background: conic-gradient(from -45deg, @stripe(--c1, --c2, --c3, --c2));
         }
         @nth(2, 5, 12, 15) {
-          background: conic-gradient(from -45deg, @var(--c3) 0 25%, @var(--c4) 0 50%, @var(--c1) 0 75%, @var(--c2) 0 100%);
+          background: conic-gradient(from -45deg, @stripe(--c3, --c4, --c1, --c2));
         }
         @nth(3, 6, 9, 16) {
-          background: conic-gradient(from -45deg, @var(--c1) 0 25%, @var(--c2) 0 50%, @var(--c3) 0 75%, @var(--c4) 0 100%);
+          background: conic-gradient(from -45deg, @stripe(--c1, --c2, --c3, --c4));
         }
         @nth(4, 10, 13) {
-          background: conic-gradient(from -45deg, @var(--c3) 0 25%, @var(--c2) 0 50%, @var(--c1) 0 75%, @var(--c2) 0 100%);
+          background: conic-gradient(from -45deg, @stripe(--c3, --c2, --c1, --c2));
         }
         @nth(7, 11) {
-          background: conic-gradient(from -45deg, @var(--c3) 0 25%, @var(--c2) 0 50%, @var(--c3) 0 75%, @var(--c2) 0 100%);
+          background: conic-gradient(from -45deg, @stripe(--c3, --c2, --c3, --c2));
         }
       );
     );
